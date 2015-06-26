@@ -1,0 +1,6 @@
+<div class="row">
+  <p><%= @discussions.first.title %></p>
+  <% @discussions.each do | discussion | %>
+    <%= discussion.message %>
+  <% end %>
+</div>
